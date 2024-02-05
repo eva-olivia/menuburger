@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contactez-nous</title>
+</head>
+<body>
+    <div class="menub">
+        <div class="icon" onclick="appmenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="slider.html">Swipper</a></li>
+                <li><a href="#">Conditions d'utilisation</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+            </ul>
+        </div>
+    </div>  
+    <h1>Contactez-nous</h1>
+    <form id="contact">
+        <div class="grp">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="grp">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password">
+            <div id="mdpError"></div>
+        </div>
+        <div class="grp">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+        <button id="darkmode">Dark Mode</button>  
+    </form>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li class="info">
+                    <a href="index.html">
+                        Acceuil
+                    </a>
+                </li>   
+                <li class="info">
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li class="info">
+                    <a href="#">
+                        A propos
+                    </a>
+                </li>
+                <li class="info">
+                    <a href="#">
+                        Condition d'utilisation
+                    </a>
+                </li>
+                <li class="info">
+                    <a href="#">
+                        Politique de confidentialité
+                    </a>
+                </li>
+                <p class="copyright">Burger © 2020</p>
+            </ul>
+        </div>
+    </footer>  
+    <script src="js/script.js"></script>
+</body>
+</html>
